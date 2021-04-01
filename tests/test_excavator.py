@@ -24,7 +24,7 @@ class TestExcavator(unittest.TestCase):
         self.settings['nicehash']['wallet'] = DONATE_ADDRESS
 
         self.alt_settings = nuxhash.settings.DEFAULT_SETTINGS
-        self.alt_settings['nicehash']['wallet'] = '1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa'
+        self.alt_settings['nicehash']['wallet'] = '3Ffa4sDFimVnGRBBLdqfZkUgxaF3jR8PL9'
         self.alt_settings['nicehash']['workername'] = 'nuxhashtest'
 
         self.excavator = Excavator(self.configdir)
